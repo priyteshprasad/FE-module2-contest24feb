@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Portal</h1>
+    </header>
+    <section id="search">
+        <input type="text" id="searchInput" placeholder="Search by First Name, Last Name, or Email">
+        <button onclick="searchTable()">Search</button>
+    </section>
+    <section id="sorting">
+        <button class="sort-btn" onclick="sortData('full_name_az')">Sort A -> Z</button>
+        <button class="sort-btn" onclick="sortData('full_name_za')">Sort Z -> A</button>
+        <button class="sort-btn" onclick="sortData('marks')">Sort by Marks</button>
+        <button class="sort-btn" onclick="sortData('passing')">Sort by Passing</button>
+        <button class="sort-btn" onclick="sortData('class')">Sort by Class</button>
+        <button class="sort-btn" onclick="sortData('gender')">Sort by Gender</button>
+        <button class="sort-btn" onclick="sortData('')">Reset</button>
+        
+    </section>
+    <section id="table">
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

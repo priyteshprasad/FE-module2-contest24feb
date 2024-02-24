@@ -1,0 +1,55 @@
+header > h1 {
+  color: #ffffff;
+  margin: 0px;
+}
+header {
+  padding: 10px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+#search {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+.sort-btn {
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: #ffffff;
+  width: -webkit-fill-available;
+}
+.sort-btn:active {
+    transform: scale(.98);
+  }
+#search > input {
+  width: 80%;
+  padding: 15px;
+}
+#search > button {
+  padding: 10px;
+  width: 15%;
+  
+}
+td {
+  padding: 5px;
+  border: solid 1px #777;
+}
+#table{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th {
+  border: solid 1px #777;
+  background-color: lightblue;
+}
+#sorting {
+  display: flex;
+  justify-content: space-around;
+}
